@@ -2,14 +2,15 @@
   "name": "osrp-postal-map-converter",
   "version": "1.0.0",
   "description": "A tool to convert and tile postal maps.",
-  "main": "dist/Converter.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "npm run build && node dist/Converter.js",
+    "start": "npm run build && node dist/index.js",
     "build": "tsc"
   },
   "author": "MclovinIt101 <https://github.com/McLovinIt101>",
   "license": "MIT",
   "dependencies": {
+    "canvas": "^3.0.1",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
