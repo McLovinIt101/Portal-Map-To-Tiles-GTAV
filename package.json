@@ -1,5 +1,5 @@
 {
-  "name": "osrp-postal-map-converter",
+  "name": "postal-map-converter",
   "version": "1.0.0",
   "description": "A tool to convert and tile postal maps.",
   "main": "dist/index.js",
